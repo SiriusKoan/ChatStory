@@ -28,7 +28,6 @@ export const messages = {
     importReviewAnother: "選別的檔案",
     uploadErrorGeneric: "讀不到這個檔案，請確認格式是否符合目前選擇的平台。",
     uploadErrorParse: "解析失敗，請確認聊天紀錄的格式是否正確。",
-    uploadErrorLarge: "檔案太大，請選擇 50MB 以內的檔案。",
     uploadErrorEmpty: "這個檔案裡沒有可分析的聊天訊息。",
     uploadErrorTwoUsers: "這個檔案不是兩人對話，目前只支援兩人聊天室。",
     uploadErrorType: "檔案類型不對。目前選擇 {name}，請匯入 {ext} 檔案。",
@@ -200,7 +199,6 @@ export const messages = {
       "Couldn't read this file. Check that it matches the selected platform.",
     uploadErrorParse:
       "Parsing failed. Check that the chat history format is valid.",
-    uploadErrorLarge: "The file is too large. Please choose one under 50MB.",
     uploadErrorEmpty: "This file doesn't contain chat messages we can analyze.",
     uploadErrorTwoUsers:
       "This file isn’t a 1-on-1 chat. We only support two people right now.",

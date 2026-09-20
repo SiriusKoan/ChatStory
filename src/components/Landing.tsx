@@ -74,8 +74,7 @@ export function Landing({ onPreviewDashboard, onParsed }: LandingProps) {
       onParsed({ parsed, fileName: file.name, platform });
     } catch (caught) {
       const code = caught instanceof Error ? caught.message : "";
-      if (code === "FILE_TOO_LARGE") setError("uploadErrorLarge");
-      else if (code === "EMPTY_CHAT") setError("uploadErrorEmpty");
+      if (code === "EMPTY_CHAT") setError("uploadErrorEmpty");
       else if (code === "WRONG_FILE_TYPE") setError("uploadErrorType");
       else if (code === "NOT_TWO_USERS") setError("uploadErrorTwoUsers");
       else if (code === "PARSE_FAILED") setError("uploadErrorParse");
